@@ -26,17 +26,3 @@ The algorithm partitions consumers into 5 highly distinct tactical segments:
 | **Cluster 3** | ⚖️ Middle Segment | Average Income, Average Spending Score |
 | **Cluster 4** | 🛍️ Impulsive Buyers | Low Income, High Spending Score |
 | **Cluster 5** | 📉 Budget Conscious | Low Income, Low Spending Score |
-
----
-
-## 📂 Project Structure
-
-```text
-├── Mall_Customers.csv         # Downloaded or fallback synthetic dataset
-├── main_segmentation.py       # Core Python execution script
-├── eda_plots.png             # Feature distribution visualizations
-├── elbow_silhouette.png       # K-selection evaluation graphs
-├── clusters_k5.png            # Final 2D spatial scatter plot of clusters
-├── cluster_summary.png        # Bar chart comparison reports
-├── customers_clustered.csv    # Final dataset appended with assigned Cluster IDs
-└── README.md                  # Project documentation
